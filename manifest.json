@@ -3,8 +3,8 @@
   "short_name": "VIP Battle",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#073042",
-  "theme_color": "#073042",
+  "background_color": "#22293b",
+  "theme_color": "#22293b",
   "orientation": "portrait",
   "icons": [
     {
