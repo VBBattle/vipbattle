@@ -1,13 +1,13 @@
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#22293b">
+<link rel="manifest" href="manifest.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="#22293b">
 <meta name="apple-mobile-web-app-title" content="VIP Battle">
-<link rel="apple-touch-icon" href="https://i.ibb.co/nNvKGctf/icon.jpg">
-<link rel="icon" type="image/x-icon" href="https://i.ibb.co/nNvKGctf/icon.jpg">
+<link rel="apple-touch-icon" href="https://i.ibb.co/Jb5xv8x/IMG-20250422-WA0043-1.jpg">
+<meta name="theme-color" content="#22293b">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://kit.fontawesome.com/8aa17a250d.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/Jb5xv8x/IMG-20250422-WA0043-1.jpg">
 <title>VIP Battle</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="loader.css">
@@ -44,7 +44,7 @@
     .bannertext > h2 { font-size: 18px; margin: 10px 0; font-weight: 500; }
 </style>
 <div class="header">
-    <img src="https://i.ibb.co/Jb5xv8x/IMG-20250422-WA0043-1.jpg">
+    <img src="https://placehold.jp/40x40.png">
     <div class="name">
         <p>Welcome Back,</p>
         <h3>VIP Battle</h3>
@@ -177,4 +177,11 @@
         location.reload();
     }
 </script>
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function() {
+        console.log("Service Worker Registered");
+      });
+    }
+</script>  
 <script src="slider.js"></script>
