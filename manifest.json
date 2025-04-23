@@ -8,14 +8,14 @@
     "description": "VIP Battle Web App",
     "icons": [
       {
-        "src": "https://i.ibb.co/Jb5xv8x/IMG-20250422-WA0043-1.jpg",
+        "src": "https://i.ibb.co/nNvKGctf/icon.jpg",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/jpg"
       },
       {
-        "src": "https://i.ibb.co/Jb5xv8x/IMG-20250422-WA0043-1.jpg",
+        "src": "https://i.ibb.co/nNvKGctf/icon.jpg",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/jpg"
       }
     ]
   }
